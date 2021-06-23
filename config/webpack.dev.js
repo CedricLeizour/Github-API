@@ -46,7 +46,7 @@ module.exports = merge(common, {
     clientLogLevel: 'warn',
     overlay: true,
     stats: 'minimal',
-    open: true,
+    open: false,
     compress: true,
     hot: true,
     watchOptions: {

@@ -1,0 +1,15 @@
+@use 'src/styles/vars';
+
+.annuaire {
+  background-color: vars.$light-grey;
+  padding: vars.$gutter;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  &__img {
+    max-width: 100%;
+    width: 300px;
+  }
+}
