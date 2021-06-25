@@ -36,7 +36,7 @@ ReposResult.propTypes = {
         login: PropTypes.string.isRequired,
         avatar_url: PropTypes.string.isRequired,
       }),
-      description: PropTypes.string.isRequired,
+      description: PropTypes.string,
     }),
   ),
 };
