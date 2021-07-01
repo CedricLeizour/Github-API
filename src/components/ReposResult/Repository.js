@@ -3,6 +3,8 @@ import React from 'react';
 import { Card, Image } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 
+import './reposResult.scss';
+
 const Repository = ({
   name,
   owner: {
@@ -12,7 +14,7 @@ const Repository = ({
   description,
  }) => {
   return (
-    <Card>
+    <Card className="repo">
       <Image src={avatarUrl} wrapped ui={false} />
       <Card.Content>
         <Card.Header textAlign="left">{name}</Card.Header>

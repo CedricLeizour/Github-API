@@ -15,7 +15,7 @@ const ReposResult = ({ repositories }) => {
 
   return (
     <Card.Group
-      itemsPerRow={3}
+      itemsPerRow={5}
       stackable
       doubling
       className="reposResults"

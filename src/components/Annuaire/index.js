@@ -27,7 +27,7 @@ const Annuaire = () => {
     console.log(search, page, existingResults);
     setLoading(true);
     setMessage('Recherche en cours, veuillez patienter ...');
-    axios.get(`https://api.github.com/search/repositories?q=${search}&sort=stars&order=desc&page=${page}&per_page=9`)
+    axios.get(`https://api.github.com/search/repositories?q=${search}&sort=stars&order=desc&page=${page}&per_page=15`)
       .then((response) => {
         if (response.status !== 200) {
           throw new Error('Une erreur est survenue durant la recherche des repositories');
